@@ -1,0 +1,8 @@
+config:
+  target: "https://www.onlineclasscard.com"
+
+scenarios:
+  - name: "Load Test"
+    flow:
+      - get:
+          url: "/"
